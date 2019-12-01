@@ -3,7 +3,10 @@ language: python
 python:
   - "3.7"
 
+sudo: required
+
 install:
   - pip install db-sqlite3
 
-script: pytest
+script:
+  - run main.py test
