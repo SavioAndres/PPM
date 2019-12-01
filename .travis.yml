@@ -5,3 +5,5 @@ python:
 
 install:
   - pip install db-sqlite3
+
+script: pytest
